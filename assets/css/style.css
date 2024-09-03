@@ -1,0 +1,462 @@
+/*
+Template Name: Aconsulting Template
+Author: Ujjol Roy
+Author URI: ujjolroy.me
+
+Table of Content: 
+1.
+2.
+3.
+4.
+5.
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+:root{
+  --color01:#252B42;
+  --color02:#17213B;
+  --color03:#FF7B47;
+  --color04:#0D5C63;
+  --color05:#FFFFFF;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+  margin-bottom: 0;
+}
+h1{
+  font-size: 58px;
+  font-weight: 800;
+  line-height: 80px;
+  color: var(--color05);
+}
+h2{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 57px;
+}
+h3{
+  font-size: 17px;
+  font-weight: 600;
+}
+h5 a{
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color05);
+}
+h4{
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--color02);
+}
+h6{
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color02);
+}
+
+p{
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--color02);
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  transition: 0.4s;
+}
+a:hover{
+  color: var(--color05);
+}
+ul li a{
+  font-weight: 600;
+  color: var(--color05);
+  display: inline-block;
+}
+.btn01,.btn02{
+  display: inline-block;
+  color: var(--color05);
+  font-size: 15px;
+  font-weight: 700;
+  padding: 10px 30px 12px;
+  border-radius: 40px;
+}
+.btn01{
+  background-color: var(--color03);
+  border: 1px solid var(--color03);
+}
+.btn02{
+  border: 1px solid var(--color05);
+}
+.btn02:hover{
+  background-color: var(--color03);
+  border: 1px solid var(--color03);
+}
+img{
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.titel-header{
+  max-width: 540px;
+  margin: 20px auto 20px;
+  color: var(--color05);
+}
+.section-padding{
+  padding: 70px 0;
+}
+
+
+      /******************/
+ /***** 1. Header Area *****/
+      /******************/
+
+.header-area{
+  position: relative;
+  padding: 30px 0;
+  background: url(../images/headerBackground.svg) no-repeat scroll bottom center/cover;
+}
+.menu-area{
+  display: flex;
+}
+.menu ul li a{
+  padding: 15px;
+}
+.menu ul li a:hover,.menu-search a:hover{
+  color: var(--color03);
+}
+.menu-search{
+  margin-left: 20px;
+}
+.menu-search a{
+  font-size: 18px;
+  padding: 8px;
+  color: var(--color05);
+}
+.menu-bars-area{
+  display: none;
+}
+.menu-bars-area .menu-bars{
+  display: inline-block;
+  font-size: 22px;
+  color: var(--color05);
+  background-color: var(--color03);
+  padding: 4px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.header-content{
+  max-width: 570px;
+  margin: auto;
+  padding: 110px 0 130px;
+}
+.header-content p{
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--color05);
+  line-height: 30px;
+  margin: 15px 0 35px; 
+}
+.header-btn a{
+  margin: 0 5px;
+}
+
+.header-counter-area{
+  background-color: var(--color05);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: -75px;
+}
+.counter-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.counter-content i {
+	font-size: 40px;
+	color: var(--color04);
+  margin-right: 10px;
+}
+
+
+      /******************/
+ /***** 2. Travel Area *****/
+      /******************/
+
+.travel-area{
+  background-color: var(--color01);
+  padding-top: 150px;
+}
+.travel-content{
+  color: var(--color02);
+  background-color: var(--color05);
+  padding: 40px; 
+  border-radius: 10px;
+  transition: .4s;
+}
+.travel-content:hover{
+  background-color: var(--color04);
+}
+.travel-content:hover > i,.travel-content:hover p,.travel-content:hover h6{
+  color: var(--color05);
+}
+.travel-content:hover .btn02{
+  background-color: var(--color05);
+}
+.travel-content > i{
+  font-size: 40px;
+  color: var(--color04);
+  margin-bottom: 20px;
+}
+.travel-content p{
+  margin: 15px 0 25px;
+}
+.travel-content .btn02{
+  border: 1px solid var(--color04);
+  color: var(--color04);
+}
+.travel-content .btn02:hover{
+  background-color: var(--color01);
+  color: var(--color03);
+}
+
+      /******************/
+ /***** 3. Field Area ******/
+      /******************/
+
+.field-area{
+  background-color: var(--color01);
+  color: var(--color05);
+}
+.titel-header h2{
+  margin-bottom: 10px;
+}
+.field-content{
+  padding-top: 30px;
+}
+.field-video{
+  position: relative;
+  padding: 20px;
+}
+.field-video a {
+	position: absolute;
+	color: var(--color05);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 30px;
+	background: var(--color04);
+	padding: 15px 27px;
+	border-radius: 50%;
+}
+.field-video a:hover{
+  box-shadow: 0 0 10px 3px var(--color03) inset,
+  0 0 7px 2px var(--color05);
+}
+.field-right-content{
+  padding: 90px;
+}
+.field-right-content h2{
+  line-height: normal;
+}
+.field-right-content > p{
+  margin: 15px 0 40px;
+}
+.field-icon{
+  display: flex;
+  margin-bottom: 30px;
+}
+.field-icon i{
+  font-size: 30px;
+  margin-right: 10px;
+  width: 50px;
+  color: #3294f5;
+}
+.field-icon-text p{
+  margin-top: 7px;
+}
+
+      /******************/
+ /***** 4. Client Area ******/
+      /******************/
+
+.client-area{
+  background-color: var(--color02);
+  color: var(--color05);
+}
+
+.client-content{
+  background-color: var(--color05);
+  max-width: 500px;
+  padding: 30px 55px;
+  margin: auto;
+  margin-top: 60px;
+  position: relative;
+}
+.client-image {
+  position: absolute;
+	width: 95px;
+  left: -60px;
+}
+.client-content h3,.client-content span{
+  color: var(--color02);
+}
+.client-content h3{
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+.client-content i{
+  color: gold;
+  margin: 15px 0 15px;
+}
+
+
+      /******************/
+ /***** 5. Team Area ******/
+      /******************/
+
+.team-area{
+  background-color: var(--color01);
+}
+.team-content {
+	padding: 30px 50px;
+  text-align: center;
+  background-color: var(--color05);
+  border-radius: 5px;
+  margin-top: 50px;
+}
+.team-content img{
+  width: 100px;
+  margin: auto;
+}
+.team-content h5{
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color03);
+  margin: 10px 0;
+}
+.team-content h3{
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+/* .team-content p{
+
+} */
+
+.map-area{
+  background-color: var(--color01);
+  padding-top: 30px;
+  padding-bottom: 420px;
+  position: relative;
+}
+.map-content{
+  padding-right: 185px ;
+}
+.map-content h2{
+  margin-bottom: 15px;
+}
+.map-content h2,.map-content p{
+  color: var(--color05);
+}
+.map-content p{
+  line-height: 25px;
+}
+
+.form-area {
+	background: var(--color05);
+	position: absolute;
+	width: 86%;
+	top: 420px;
+  margin: auto;
+}
+.form-image img{
+  height: 700px;
+}
+.main-form{
+  padding: 40px;
+  padding-right: 60px;
+  box-sizing: border-box;
+}
+.main-form h2{
+  margin-bottom: 40px;
+}
+.main-form label{
+  font-weight: 600;
+}
+.main-form input,.main-form select{
+  padding: 15px;
+  background-color: #f3f3f3b6;
+}
+.main-form input::placeholder{
+  color: var(--color02);
+}
+.main-form input:focus,.main-form select:focus{
+  box-shadow: none;
+}
+.form-btn .btn01 {
+	width: 100%;
+	border-radius: 5px;
+	margin-top: 40px;
+	padding: 15px 0;
+}
+
+.faka-area{
+  padding: 200px;
+}
+
+.footer-area{
+  background-color: var(--color02);
+  color: var(--color05);
+}
+.footer-row{
+  padding: 0 40px;
+}
+.footer-content{
+  padding-right: 60px;
+}
+.footer-area h3{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.footer-content p{
+  color: var(--color05);
+  margin: 10px 0;
+}
+.footer-content a{
+  font-size: 20px;
+  margin-right: 10px;
+  color: var(--color03);
+}
+.footer-list ul{
+  flex-direction: column;
+  align-items: start;
+}
+.footer-list ul li{
+  margin: 3px 0;
+}
+.footer-list ul li a{
+  font-weight: 500;
+}
+.copyright-area{
+  background-color: var(--color01);
+  padding: 30px;
+  text-align: center;
+}
+.copyright-area p{
+  color: #BDBDBD;
+}

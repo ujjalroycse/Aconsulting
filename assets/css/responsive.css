@@ -1,0 +1,199 @@
+@media all and (max-width:1400px){
+
+    .field-right-content {
+        padding: 90px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .team-content {
+        padding: 30px;
+    }
+}
+@media all and (max-width:1200px){
+
+    .field-right-content {
+        padding: 0;
+    }
+    h2 {
+        font-size: 35px;
+    }
+
+    .map-content {
+        padding-right: 85px;
+    }
+}
+
+
+@media all and (max-width:991px){
+
+    h1 {
+        font-size: 50px;
+        line-height: 65px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .header-content {
+        padding: 85px 0 130px;
+    }
+    .header-content p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .header-counter-area {
+        padding: 20px 10px;
+    }
+
+    .counter-content i {
+        font-size: 29px;
+    }
+    .counter-content p {
+        font-size: 14px;
+    }
+
+    .travel-area {
+        padding-top: 115px;
+    }
+
+    .field-right-content {
+        padding: 20px;
+    }
+
+    .team-content {
+        margin-top: 25px;
+    }
+
+    .map-content {
+        padding-right: 0;
+    }
+
+    .form-area {
+        background: #FFF;
+        position: relative;
+        width: 90%;
+        top: 50px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .form-image img {
+        height: 670px;
+    }
+    .faka-area {
+        display: none;
+    }
+
+    .footer-list,.footer-content {
+        margin-bottom: 20px;
+    }
+}
+
+
+@media all and (min-width:768px){
+    .menu{
+        display: block !important;
+    }
+}
+
+@media all and (max-width:767px){
+
+
+    .menu-area .menu-search{
+        display: none;
+    }
+    .menu-bars-area {
+        display: flex;
+    }
+    .logo-menu-area{
+        position: relative;
+    }
+    .menu {
+        position: absolute;
+        top: 45px;
+        left: 0;
+        background: var(--color01);
+        width: 0;
+        overflow: hidden;
+        transition: .5s;
+        border-radius: 5px;
+    }
+    .menu.slide{
+        width: 100%;
+    }
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu ul li {
+        width: 100%;
+        text-align: center;
+    }
+    .menu ul li a{
+        width: 100%;
+        padding: 12px;
+    }
+
+    .header-counter-area {
+        padding: 20px 10px 8px;
+    }
+    .counter-content {
+        margin-bottom: 10px;
+    }
+    .header-counter-area {
+        margin-bottom: -95px;
+    }
+
+    .client-content {
+        max-width: 480px;
+        padding: 30px 45px;
+    }
+    .client-image {
+        width: 85px;
+        left: -55px;
+    }
+    .client-content h3 {
+        font-size: 20px;
+    }
+
+    .team-content {
+        padding: 30px 15px;
+    }
+
+    .form-area {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width:575px){
+
+    .travel-content {
+        margin-bottom: 22px;
+    }
+
+    .header-counter-area {
+        margin-bottom: -30px;
+    }
+
+    .team-content {
+        margin-top: 28px;
+    }
+
+    .client-image {
+        position: initial;
+        margin-bottom: 10px;
+    }
+    .client-content {
+        padding: 30px 35px;
+    }
+
+    .form-image {
+        display: none;
+    }
+}
+
+@media all and (max-width:450px){
+
+}
