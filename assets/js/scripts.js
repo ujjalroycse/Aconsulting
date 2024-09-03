@@ -1,3 +1,4 @@
+AOS.init();
 $(document).ready(function () {
     $('.count-number1').counterUp({
         delay: 5,
@@ -24,7 +25,8 @@ $(document).ready(function () {
     $('.client-carousol').owlCarousel({
         items: 2,
         loop: true,
-        // autoplay:true,
+        autoplay:true,
+        autoplayTimeout:2500,
         center: true,
         responsive:{
             0:{
