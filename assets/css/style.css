@@ -332,6 +332,7 @@ img{
 
 .team-area{
   background-color: var(--color01);
+  overflow: hidden;
 }
 .team-content {
 	padding: 30px 50px;

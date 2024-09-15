@@ -122,6 +122,7 @@
     }
     .menu.slide{
         width: 100%;
+        z-index: 1;
     }
     .menu ul {
         flex-direction: column;
