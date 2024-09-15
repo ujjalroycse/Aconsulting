@@ -127,6 +127,7 @@ img{
   position: relative;
   padding: 30px 0;
   background: url(../images/headerBackground.svg) no-repeat scroll bottom center/cover;
+  overflow-x: hidden;
 }
 .menu-area{
   display: flex;
@@ -200,6 +201,7 @@ img{
 .travel-area{
   background-color: var(--color01);
   padding-top: 150px;
+  overflow-x: hidden;
 }
 .travel-content{
   color: var(--color02);
@@ -241,6 +243,7 @@ img{
 .field-area{
   background-color: var(--color01);
   color: var(--color05);
+  overflow-x: hidden;
 }
 .titel-header h2{
   margin-bottom: 10px;
@@ -297,6 +300,7 @@ img{
 .client-area{
   background-color: var(--color02);
   color: var(--color05);
+  overflow-x: hidden;
 }
 
 .client-content{
@@ -355,15 +359,17 @@ img{
   font-weight: 700;
   margin-bottom: 10px;
 }
-/* .team-content p{
 
-} */
+      /******************/
+ /***** 5. Map Area ******/
+      /******************/
 
 .map-area{
   background-color: var(--color01);
   padding-top: 30px;
   padding-bottom: 420px;
   position: relative;
+  overflow-x: hidden;
 }
 .map-content{
   padding-right: 185px ;

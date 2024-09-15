@@ -119,10 +119,11 @@
         overflow: hidden;
         transition: .5s;
         border-radius: 5px;
+        z-index: 1111;
     }
     .menu.slide{
         width: 100%;
-        z-index: 1;
+        z-index: 1111;
     }
     .menu ul {
         flex-direction: column;
